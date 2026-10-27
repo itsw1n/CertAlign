@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@theme {
+  --color-background: #f8f9f8;
+  --color-surface: #ffffff;
+  --color-surface-2: #f2f5f4;
+  --color-surface-3: #e9eeee;
+  --color-primary: #174c5d;
+  --color-primary-strong: #103b4a;
+  --color-foreground: #192d34;
+  --color-muted: #6c7c81;
+  --color-border: #e2e7e6;
+  --color-danger: #af3d37;
+  --color-focus: #247f9b;
+  --font-sans: Arial, Helvetica, sans-serif;
+}
+@font-face { font-family: CertGaramond; src: url('/fonts/eb-garamond.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: CertFreeSerif; src: url('/fonts/free-serif.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: CertFreeItalic; src: url('/fonts/free-serif-italic.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: CertLiberation; src: url('/fonts/liberation-serif.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: CertDejaVu; src: url('/fonts/dejavu-serif.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: CertLato; src: url('/fonts/lato-regular.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: CertLatoBold; src: url('/fonts/lato-bold.ttf') format('truetype'); font-display: swap; }
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { background: var(--color-background); color: var(--color-foreground); font-family: Arial, Helvetica, sans-serif; }
+button { cursor: pointer; }
+input[type=number] { font-variant-numeric: tabular-nums; }
+input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-spin-button{ margin:0; }
+::selection { background: #cce6e8; }
+.field { min-height:40px; width:100%; border:1px solid var(--color-border); border-radius:10px; background:#fff; padding:9px 11px; font-size:14px; outline:none; }
+.field:focus-visible { box-shadow: 0 0 0 3px #247f9b38; }
+.card-panel { border: 1px solid var(--color-border); border-radius: 18px; background:#fff; }
+.helper { color: var(--color-muted); font-size:12px; line-height:1.6; }
+.kicker { color: #668187; font-size:11px; letter-spacing: 0.11em; font-weight:700; text-transform:uppercase; }
+.hairline { height:1px; background:var(--color-border); }
+@media (prefers-reduced-motion: reduce) { *,*::before,*::after { scroll-behavior:auto!important; animation-duration:0.01ms!important; transition-duration:0.01ms!important; } }
+
+@font-face { font-family: CertCharisItalic; src: url('/fonts/charis-italic.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: CertGentium; src: url('/fonts/gentium-plus.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: CertComfortaa; src: url('/fonts/comfortaa.ttf') format('truetype'); font-display: swap; }
+@font-face { font-family: CertLobster; src: url('/fonts/lobster-two-italic.otf') format('opentype'); font-display: swap; }
