@@ -59,7 +59,7 @@ Serve the generated `out/` directory as a static website (HTTPS recommended). Th
 
 ## Validation note
 
-The source was generated and checked for TypeScript/TSX parsing and file completeness. The authoring environment **could not reach the npm registry**, so `npm install`, Next.js type-check/build, browser smoke tests, PDF font embedding verification, and physical-printer tests **could not be run here**. Run the commands above on a networked machine before deploying or relying on it for real certificate printing.
+Validated on 2026-10-27 with Node.js 22.23.2: `npm ci`, `npm run typecheck`, `npm run lint`, and the production static build all pass. Browser acceptance checks against the generated `out/` site passed **32/37** in Chromium, including PDF inspection and font embedding. The five unchecked items require physical printers and paper feeds; see `docs/TESTING_CHECKLIST.md`. Physical print alignment remains dependent on the user's printer and paper handling.
 
 ## Project contents
 
