@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1123" height="794" viewBox="0 0 1123 794">
+<rect width="1123" height="794" fill="#fffdf8"/>
+<rect x="39" y="39" width="1045" height="716" fill="none" stroke="#bf9d63" stroke-width="2"/>
+<rect x="50" y="50" width="1023" height="694" fill="none" stroke="#e6d8b9" stroke-width="1"/>
+<path d="M39 168V39H168 M955 39h129v129 M39 625v130h129 M955 755h129V625" stroke="#18364b" stroke-width="7" fill="none"/>
+<path d="M 150 178 H973" stroke="#e1d8c8" stroke-width="1"/>
+<text x="561" y="162" fill="#9e865b" font-size="16" letter-spacing="7" font-family="sans-serif" text-anchor="middle">CERTALIGN WORKSHOPS</text>
+<text x="561" y="261" fill="#163346" font-size="56" font-family="Georgia,serif" text-anchor="middle">Certificate of Participation</text>
+<text x="561" y="327" fill="#6a7480" font-size="21" font-family="Georgia,serif" text-anchor="middle">This certificate is proudly presented to</text>
+<path d="M 257 457 H866" stroke="#c2ac7e" stroke-width="1.5"/>
+<text x="561" y="504" fill="#6a7480" font-size="20" font-family="Georgia,serif" text-anchor="middle">in recognition of active participation and commitment to learning</text>
+<text x="561" y="545" fill="#6a7480" font-size="17" font-family="Georgia,serif" text-anchor="middle">at the Creative Skills Workshop</text>
+<path d="M 244 650 H444 M 678 650 H878" stroke="#9b947e" stroke-width="1"/>
+<text x="344" y="679" text-anchor="middle" fill="#697584" font-size="15" font-family="sans-serif">Workshop Facilitator</text>
+<text x="778" y="679" text-anchor="middle" fill="#697584" font-size="15" font-family="sans-serif">Event Organizer</text>
+<circle cx="561" cy="655" r="35" stroke="#c5a36e" fill="none" stroke-width="2"/>
+<circle cx="561" cy="655" r="26" stroke="#e6d9bd" fill="none"/>
+<text x="561" y="661" text-anchor="middle" font-size="16" fill="#b99a6d" font-family="Georgia,serif">CA</text>
+</svg>
